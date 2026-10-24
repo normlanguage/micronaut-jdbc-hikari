@@ -2,6 +2,7 @@ Module module() {
   return module(
     name: "micronaut.jdbc.hikari",
     version: 2,
+    exports: [],
     binding: jarBinding(
       target: mavenJar(
         group: "io.micronaut.sql",
