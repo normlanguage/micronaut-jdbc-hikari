@@ -1,7 +1,7 @@
 Module module() {
   return module(
     name: "micronaut.jdbc.hikari",
-    version: 3,
+    version: 4,
     exports: [],
     binding: jarBinding(
       target: mavenJar(
@@ -14,4 +14,5 @@ Module module() {
     )
   )
 }
+
 
